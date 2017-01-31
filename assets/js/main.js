@@ -70,7 +70,7 @@
 
 				button.click(function(e) {
 					t.toggleClass('show');
-					e.preventDefault();
+					e.preventDefault() = false;
 				});
 
 			});
